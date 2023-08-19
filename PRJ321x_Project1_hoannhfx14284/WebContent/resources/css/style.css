@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+body {
+	background-image: url("../image/background.jpg");
+	
+	
+}
+a{
+	border-radius: 10px;
+	margin: 10px;
+}
+
+a:link, a:visited {
+	background-color: khaki;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: lavender;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 500px;
+}
+
+#link1 { 
+	padding: 14px 36px;
+}
+
+#link3 {
+	padding: 14px 35px;
+}
